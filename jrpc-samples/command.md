@@ -3,4 +3,5 @@
 3. copy target/generated_sources/protobuf/grpc-java/*
    copy target/generated_sources/protobuf/java/*  <br>
    to src/main/java/
+4. coding server/client
    
