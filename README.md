@@ -139,7 +139,8 @@ filetree
 
 ### 开发的架构 
 
-![archi1](https://github.com/shaojintian/jrpc/docs/images/archi1-rpc.png)
+![archi1](https://github.com/shaojintian/jrpc/tree/master/docs/images/archi1-rpc.png)
+
 请阅读[ARCHITECTURE.md](https://github.com/shaojintian/jrpc/blob/master/ARCHITECTURE.md) 查阅为该项目的架构。
 
 ### 部署
