@@ -26,7 +26,7 @@ public class HelloServiceGrpc {
 
   public static final String SERVICE_NAME = "hello.HelloService";
 
-  // Static method descriptors that strictly reflect the proto.
+  // Static methodInfo descriptors that strictly reflect the proto.
   @io.grpc.ExperimentalApi("https://github.com/grpc/grpc-java/issues/1901")
   public static final io.grpc.MethodDescriptor<io.grpc.hello.HelloRequest,
       io.grpc.hello.HelloReply> METHOD_SAY =
