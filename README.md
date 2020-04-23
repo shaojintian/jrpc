@@ -139,7 +139,9 @@ filetree
 
 ### 开发的架构 
 
-<img src="https://github.com/shaojintian/jrpc/tree/master/docs/images/archi1-rpc.png"  alt="archi-rpc">
+
+<img src="docs/images/delay-queue.png" alt="Logo"/>
+
 
 请阅读[ARCHITECTURE.md](https://github.com/shaojintian/jrpc/blob/master/ARCHITECTURE.md) 查阅为该项目的架构。
 
