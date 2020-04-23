@@ -1,6 +1,6 @@
-# ProjectName
+# JRPC
 
-ProjectName and Description
+a lightweight rpc framework
 
 <!-- PROJECT SHIELDS -->
 
@@ -25,22 +25,20 @@ ProjectName and Description
 <br />
 
 <p align="center">
-  <a href="https://github.com/shaojintian/Best_README_template/">
+  <a href="https://github.com/shaojintian/jrpc/">
     <img src="docs/images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">JRPC</h3>
   <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/shaojintian/Best_README_template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/shaojintian/jrpc"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/shaojintian/Best_README_template"> View Demo</a>
+    <a href="https://github.com/shaojintian/jrpc"> View Demo</a>
     ·
-    <a href="https://github.com/shaojintian/Best_README_template/issues">Report Bug</a>
+    <a href="https://github.com/shaojintian/jrpc/issues">Report Bug</a>
     ·
-    <a href="https://github.com/shaojintian/Best_README_template/issues">Request Feature</a>
+    <a href="https://github.com/shaojintian/jrpc/issues">Request Feature</a>
   </p>
 
 </p>
@@ -93,7 +91,7 @@ ProjectName and Description
 
 ### 上手指南
 
-请将所有链接中的“shaojintian/Best_README_template”改为“your_github_name/your_repository”
+请将所有链接中的“shaojintian/jrpc”改为“your_github_name/your_repository”
 
 
 
@@ -108,7 +106,7 @@ ProjectName and Description
 2. Clone the repo
 
 ```sh
-git clone https://github.com/shaojintian/Best_README_template.git
+git clone https://github.com/shaojintian/jrpc.git
 ```
 
 ### 文件目录说明
@@ -141,7 +139,8 @@ filetree
 
 ### 开发的架构 
 
-请阅读[ARCHITECTURE.md](https://github.com/shaojintian/Best_README_template/blob/master/ARCHITECTURE.md) 查阅为该项目的架构。
+![archi1](https://github.com/shaojintian/jrpc/docs/images/archi1-rpc.png)
+请阅读[ARCHITECTURE.md](https://github.com/shaojintian/jrpc/blob/master/ARCHITECTURE.md) 查阅为该项目的架构。
 
 ### 部署
 
@@ -196,7 +195,7 @@ E-mail: sjt@hnu.edu.cn
 
 ### 版权说明
 
-该项目签署了MIT 授权许可，详情请参阅 [LICENSE.txt](https://github.com/shaojintian/Best_README_template/blob/master/LICENSE.txt)
+该项目签署了MIT 授权许可，详情请参阅 [LICENSE.txt](https://github.com/shaojintian/jrpc/blob/master/LICENSE.txt)
 
 ### 鸣谢
 
@@ -217,16 +216,16 @@ If you like this project and want to sponsor the author, you can reward the auth
 </figure>
 <!-- links -->
 
-[your-project-path]: shaojintian/Best_README_template
-[contributors-shield]: https://img.shields.io/github/contributors/shaojintian/Best_README_template.svg?style=flat-square
-[contributors-url]: https://github.com/shaojintian/Best_README_template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/shaojintian/Best_README_template.svg?style=flat-square
-[forks-url]: https://github.com/shaojintian/Best_README_template/network/members
-[stars-shield]: https://img.shields.io/github/stars/shaojintian/Best_README_template.svg?style=flat-square
-[stars-url]: https://github.com/shaojintian/Best_README_template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/shaojintian/Best_README_template.svg?style=flat-square
-[issues-url]: https://img.shields.io/github/issues/shaojintian/Best_README_template.svg
-[license-shield]: https://img.shields.io/github/license/shaojintian/Best_README_template.svg?style=flat-square
-[license-url]: https://github.com/shaojintian/Best_README_template/blob/master/LICENSE.txt
+[your-project-path]: shaojintian/jrpc
+[contributors-shield]: https://img.shields.io/github/contributors/shaojintian/jrpc.svg?style=flat-square
+[contributors-url]: https://github.com/shaojintian/jrpc/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/shaojintian/jrpc.svg?style=flat-square
+[forks-url]: https://github.com/shaojintian/jrpc/network/members
+[stars-shield]: https://img.shields.io/github/stars/shaojintian/jrpc.svg?style=flat-square
+[stars-url]: https://github.com/shaojintian/jrpc/stargazers
+[issues-shield]: https://img.shields.io/github/issues/shaojintian/jrpc.svg?style=flat-square
+[issues-url]: https://img.shields.io/github/issues/shaojintian/jrpc.svg
+[license-shield]: https://img.shields.io/github/license/shaojintian/jrpc.svg?style=flat-square
+[license-url]: https://github.com/shaojintian/jrpc/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/shaojintian
