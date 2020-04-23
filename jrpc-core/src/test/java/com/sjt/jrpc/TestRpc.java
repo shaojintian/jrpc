@@ -1,6 +1,6 @@
 package com.sjt.jrpc;
 
-import com.sjt.jrpc.proxy.DynamicProxy;
+import com.sjt.jrpc.proxy.socket.DynamicProxy;
 
 public class TestRpc {
 

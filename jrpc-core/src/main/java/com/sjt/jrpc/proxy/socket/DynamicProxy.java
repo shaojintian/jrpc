@@ -1,4 +1,4 @@
-package com.sjt.jrpc.proxy;
+package com.sjt.jrpc.proxy.socket;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

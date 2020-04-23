@@ -60,6 +60,7 @@ a lightweight rpc framework
 - [] 安全体系
 - [] 流量回放
 - [] 动态分组
+- [x] 支持Socket,Channel多种网络通信方式
 
 
 
