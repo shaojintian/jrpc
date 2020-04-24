@@ -1,7 +1,6 @@
 syntax="proto3";
-import "errno.proto";
 import "streaming_rpc_meta.proto";
-
+import "options.proto";
 
 package jrpc;
 option  java_package="com.sjt.jrpc.protocol";

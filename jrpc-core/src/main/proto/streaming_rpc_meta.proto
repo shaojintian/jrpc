@@ -1,5 +1,4 @@
 syntax="proto3";
-import "options.proto";
 
 package jrpc;
 option java_package="com.sjt.jrpc.protocol";
