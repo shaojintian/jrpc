@@ -7,14 +7,14 @@ import java.io.*;
 import java.lang.reflect.Method;
 import java.net.Socket;
 
-public class RpcServiceProviderThread<T> implements Runnable {
-    private static final Logger logger = LoggerFactory.getLogger(RpcServiceProviderThread.class);
+public class RpcServiceProviderStreamThread<T> implements Runnable {
+    private static final Logger logger = LoggerFactory.getLogger(RpcServiceProviderStreamThread.class);
     private Socket socket;
     private T obj;
     private ObjectInputStream ois;
     private ObjectOutputStream oos;
 
-    public RpcServiceProviderThread(T obj, Socket socket){
+    public RpcServiceProviderStreamThread(T obj, Socket socket){
         this.socket =socket;
         this.obj=obj;
     }

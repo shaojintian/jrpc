@@ -24,7 +24,7 @@ public class RpcServer {
             final Socket socket =  serverSocket.accept();
             logger.info("start",socket);
             //并发处理所有调用逻辑
-            RpcServiceProviderThread<T> thread  = new RpcServiceProviderThread<T>(obj ,socket);
+            RpcServiceProviderStreamThread<T> thread  = new RpcServiceProviderStreamThread<T>(obj ,socket);
             thread.run();
         }
 

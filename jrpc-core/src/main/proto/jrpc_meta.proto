@@ -1,10 +1,15 @@
 syntax="proto3";
 import "streaming_rpc_meta.proto";
 import "options.proto";
+import "google/protobuf/any.proto";
 
 package jrpc;
 option  java_package="com.sjt.jrpc.protocol";
 option  java_outer_classname="JRpcProto";
+
+service RpcService{
+    rpc doRpc(RpcRequestMeta) returns(RpcResponseMeta){}
+}
 
 message RpcMeta{
     RpcRequestMeta request = 1;
@@ -24,13 +29,18 @@ message RpcRequestMeta{
     int64 trace_id = 4;
     int64 span_id = 5;
     int64 parent_span_id =6;
-    repeated RpcRequestMetaExtField ext_field =7;
+    ParamsTypes  params_types=7;
+    ParamsValues  params_values=8;
 }
 
-message RpcRequestMetaExtField{
-    string key = 1;
-    string value =2;
+message ParamsTypes{
+    repeated google.protobuf.Any type=1;
 }
+
+message ParamsValues{
+    repeated google.protobuf.Any value=1;
+}
+
 
 message RpcResponseMeta{
     int32 err_code = 1;

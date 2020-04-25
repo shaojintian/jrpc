@@ -12,12 +12,12 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 import java.net.Socket;
 
-public class DynamicProxy {
-    private static final Logger logger  = LoggerFactory.getLogger(DynamicProxy.class);
+public class DynamicProxyStream {
+    private static final Logger logger  = LoggerFactory.getLogger(DynamicProxyStream.class);
     private String host;
     private int port;
 
-    public DynamicProxy(String host,int port){
+    public DynamicProxyStream(String host, int port){
         this.host = host;
         this.port = port;
     }
